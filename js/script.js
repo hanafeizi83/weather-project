@@ -10,7 +10,7 @@ BtnSearch.addEventListener('click',()=>{
     .then((data) => {
         const icon =`https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${data.weather[0].icon}.svg`;
         console.log(icon)
-        cityKeeper.innerHTML =`<div class="city-item">
+        cityKeeper.innerHTML +=`<div class="city-item">
         <div class="city-item__title">
             <h3>${data.name}</h3>
             <span>${data.sys.country}</span>
