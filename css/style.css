@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'ordibehsht';
+    src: url('../fonts/Ordibehesht.TTF');
+}
+@font-face {
+    font-family: 'lalezar';
+    src: url('../fonts/Lalezar-Regular.otf');
+}
+
+body{
+    margin: 0;
+    background-image: url(../images/pexels-brett-sayles-1431822.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.search{
+    margin: 4rem auto;
+    width: 30%;
+}
+.input-search{
+    background-color: #FFF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2.5rem;
+    border-radius: .2rem;
+}
+.input-search input{
+    border: none;
+    outline: none;
+    width: 85%;
+    height: 1.5rem;
+}
+.input-search ion-icon{
+    font-size: 1.5rem;
+    border: 1px solid ;
+    border-radius: 50%;
+    padding: .2rem;
+    cursor: pointer;
+}
+.search span{
+    color: red;  
+}
+.city-keeper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+/* city-item */
+.city-item{
+    background-color: #FFF;
+    border-radius: .5rem;
+    width: 20%;
+    height: 18rem;
+}
+.city-item__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.city-item__title h3{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: .5rem;
+}
+.city-item__title span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  .6rem;
+    height: .6rem;
+    padding: .3rem;
+    background-color: #36a1c2;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: .8rem;
+    border-radius: 50%;
+}
+.dgree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dgree h3{
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin: .5rem; */
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon div{
+ 
+ height: 8rem;
+}
+.icon span{
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
